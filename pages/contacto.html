@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <!-- Menu con bootstrap -->
+    </header>
+
+    <section>
+        <!-- carrusel con bootstrap -->
+    </section>
+
+    <section>
+        <h1>Contáctanos</h1>
+        
+        <p class="parrafo-contacto">Completa tus datos en el formulario y te contactaremos a la brevedad</p>
+    </section>
+    
+    <main class="main-contacto">
+        <form>
+            <h3 class="text-center">Formulario</h3>
+            <div class="campos">
+                <label for="nombreApellido">Nombre y apellido</label>
+                <input type="text" id="nombreApellido" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="campos">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" placeholder="Tu e-mail" required>
+            </div>
+            <div class="campos">
+                <label for="telf">Número de teléfono</label>
+                <input type="tel" id="telf">
+            </div>
+            <div class="campos">
+                <label for="mensaje">Dejanos tu consulta o mensaje</label>
+                <textarea id="mensaje"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar formulario" class="botones-form">
+            <input type="reset" value="Limpiar" class="botones-form">
+        </form>
+
+        <div class="container-mapa">
+            <h3 class="text-center">¿Donde estamos?</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.934223916743!2d-74.00557598522613!3d40.74147284375004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1ses-419!2sar!4v1675367942976!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </div>
+    </main>
+
+    <section>
+        <h2>¿Quieres saber más?</h2>
+
+        <p class="text-center mt-4">No dudes en navegar por nuestro sitio, mirar los productos, y por supuesto <a href="pages/contacto.html">contactarte con nosotros</a></p>
+    </section>
+
+    <footer>
+        <h3>Síguenos en nuestras redes sociales</h3>
+
+        <div class="container-redes">
+            <a href="#" target="_blank">
+                <iconify-icon icon="mdi:instagram"></iconify-icon>
+            </a>
+
+            <a href="#" target="_blank">
+                <iconify-icon icon="uil:facebook"></iconify-icon>
+            </a>
+
+            <a href="#" target="_blank">
+                <iconify-icon icon="ic:baseline-whatsapp"></iconify-icon>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+
+</body>
+</html>
